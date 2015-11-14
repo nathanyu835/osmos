@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>pset tinder -- 20 minutes into reactive carbenes and chill and he gives you this look</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="//www.parsecdn.com/js/parse-1.6.4.min.js"></script>
+        <script src="../js/functions.js"></script>
+        <script src="../js/dashboard.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+      
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1 id="welcome"></h1>
+            <div id="tabs">
+                <ul>
+                    <li><a href="#assignments">Assignments</a></li>
+                    <li><a href="#groups">Groups</a></li>
+                    <li><a href="#courses">My Courses</a></li>
+                </ul>
+                <div id="assignments"><p>Assignment List</p></div>
+                <div id="groups">
+                    <p>Group Info</p>
+                    <a href="#" id="group-create">Create a group</a>
+                    <form id="group-create-form">
+                        <input type="text" name="groupName" id="groupName" placeholder="my group name">
+                        <input type="radio" name="groupType" value="open" checked>Open
+                        <input type="radio" name="groupType" value="closed">Closed
+                        <button type="button" id="submit">Submit</button>
+                    </form>
+                    <a href="#" id="group-join">Join an open group</a>
+                    <form id="group-join-form">
+                        <input type="text" name="groupName" id="groupName" placeholder="group name to join">
+                        <button type="button" id="submit">Submit</button>
+                    </form>
+                </div>
+                <div id="courses"><p>Course List</p></div>
+            </div>
+            <div id="profile-navigation">
+                <ul>
+                    <li><a href="../pages/information.html" id="information">Information</a></li>
+                    <li><a href="#" id="logout">Log out</a></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
