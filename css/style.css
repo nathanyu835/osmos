@@ -1,0 +1,18 @@
+/*
+general css styles
+*/
+
+body {
+    background-color: red;
+}
+
+.forms {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20%;
+    background-color: yellow;
+}
+
+.forms form {
+    text-align: center;
+}
