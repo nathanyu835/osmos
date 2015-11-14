@@ -1,0 +1,2 @@
+# osmos
+Study Effectively
